@@ -1,4 +1,17 @@
+@keyframes epilepsja {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: #f442c8;}
+    100% {background-color: green;}
+}
+
 body {
 	width: 1170px;
 	margin: 0 auto;
+	background-color: blue;
+	animation-name: epilepsja;
+	animation-duration: 0.2s;
+	animation-iteration-count: infinite;
 }
+
+/* Special thanks to W3Schools!!! */
